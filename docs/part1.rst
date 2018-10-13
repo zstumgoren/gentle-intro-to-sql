@@ -13,17 +13,7 @@ Part I
    part1/updating-data
    part1/deleting-data
    part1/importing-data
+   part1/references
 
-
-
-Further References
-~~~~~~~~~~~~~~~~~~
-
-| http://www.w3schools.com/sql/sql_intro.asp
-| http://www.firstsql.com/tutor.htm
-| https://hackr.io/tutorials/learn-sql
-
-A Gentle Introduction to SQL Using SQLite by Troy Thibodeaux is licensed
-under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
-License.
+.. include:: license_snippet.rst.inc
 
