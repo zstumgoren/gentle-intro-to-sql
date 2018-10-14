@@ -1,7 +1,7 @@
 A Gentle Introduction to SQL Using SQLite
 -----------------------------------------
 
-This tutorial was lovingly crafted by `Troy Thibodeaux <https://github.com/tthibo>`_ 
+This tutorial was crafted by `Troy Thibodeaux <https://github.com/tthibo>`_ 
 as a human-friendly introduction to the world of databases and SQL.
 
 It introduces database skills fromm the ground up using
