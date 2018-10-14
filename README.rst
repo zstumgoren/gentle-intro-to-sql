@@ -10,7 +10,7 @@ SQLite and a small set of data from the world of campaign finance.
 This repo largely hews to Troy's original `SQL-Tutorial <https://github.com/tthibo/SQL-Tutorial>`_, 
 but updates the material to work with *DB Browser for SQLite*.
 
-It's home page is on RTD (TK).
+Its home page is on RTD (TK).
 
 .. image:: https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png
 
