@@ -54,10 +54,10 @@ For everything else, you can keep the default selections.
 Click OK and the data should import into a new table called
 ``contributors_temp``.
 
-   Note that DB Browser is doing a bit of magic here. We didn't have to
+   Note that *DB Browser* is doing a bit of magic here. We didn't have to
    manually define the ``contributors_temp`` table. Instead, *DB Browser*
    simply created a table with column names matching our field headers,
-   autoamtically set the column data types to ``TEXT``, and inserted the
+   automatically set the column data types to ``TEXT``, and inserted the
    rows for us.
 
 Now that we loaded our temporary table, we're ready to copy the new rows
@@ -72,6 +72,11 @@ Finally, you'll probably want to delete the temporary table now that
 it's done it's job. Just select ``contributors_temp``, right-click and
 choose ``Delete table`` and click Yes.
 
+*You should also save the database changes you've made so far so you don't 
+lose your work.* You can save the changes by clicking the "Write Changes" button:
+
+|image3|
+
 And now you have 103 rows of data to play with. The FEC data is dirty:
 there are missing fields, first names include middle names, there are
 weird values for some columns. Play around with it using the SQL you
@@ -79,10 +84,10 @@ know, and see what you can find out. If you get surprising results from
 a query or are wondering how to do something, add a comment to the blog
 post.
 
-We’ll pick up with some more advanced queries and functions in `Part
-II <part2.textile>`__.
+We’ll pick up with some more advanced queries and functions in :doc:`../part2`.
 
 
 .. |image1| image:: ../_static/part1/contributors_sample.png
 .. |image2| image:: ../_static/part1/import_contribs_to_temp.png
+.. |image3| image:: ../_static/part1/write_changes_button.png
 
