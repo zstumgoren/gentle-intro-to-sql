@@ -1,16 +1,24 @@
 Creating the First Database
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mousing over each of the icons at the top of the DB Browser tool will
+Mousing over each of the icons at the top of the *DB Browser* tool will
 show what the icon does.
 
 To create a database, simply click on the icon for “New Database”:
 
 |image1|
 
-Name the database “test” and save it anywhere you like (the desktop will
+Name the database “contributors” and save it anywhere you like (the desktop will
 work, or your documents folder). This single file will contain the
 entire database you create.
+
+    Note: As you do work in *DB Browser*, be aware that it will not
+    automatically save your work. If you plan to step away from the tutorial,
+    be sure to save your chnages by clicking the "Write Changes" button:
+
+    |write_changes_button|
+
+
 
 Creating a Table
 ~~~~~~~~~~~~~~~~
@@ -52,7 +60,7 @@ datatype, but remember that some zips start with a 0 (00501 is in NY).
 So, we want to treat this column as a string of text, rather than as a
 number (which would be 501).
 
-Click OK and DB Browser will create the table based on your
+Click OK and *DB Browser* will create the table based on your
 specifications, by executing the full SQL statement in the lower pane of
 the table creation window:
 
@@ -82,3 +90,4 @@ for “contributors” will show you the column list for the table.
 .. |image2| image:: ../_static/part1/new_table.png
 .. |image3| image:: ../_static/part1/create_table.png
 .. |image4| image:: ../_static/part1/table_and_column_after_creation.png
+.. |write_changes_button| image:: ../_static/part1/write_changes_button.png
