@@ -1,19 +1,15 @@
 Getting started
 ----------------
 
-To get started, click on the SQLite Manager tool in your FireFox
-toolbar:
+To get started, fire up *DB Browser* if you don't already have it open.
 
-|image0|
+Click "Open Database" (|open_db|) and navigate to the "contributors.db" database 
+you created in :doc:`../part1/first-db-and-table`. 
 
-| It should ask you if you want to open the last used database
-  (**test.sql**). Click OK.
-| If you do not get this option, click on the “Connect Database” icon
-  (|image1|) and browse to the file you saved last time. (If you can’t
-  find the file, you can recreate it by following the final step in
-  `Part I <https://github.com/tthibo/SQL-Tutorial#readme>`__ of this
-  tutorial.)
+   Note, this db should contain 103 rows after completing the 
+   :doc:`../part1/importing-data` section of the tutorial. If you skipped
+   that section or can't find the file, grab a copy of the db file here: 
+   :download:`contributors.db <../_data/contributors.db>`.
 
-.. |image0| image:: https://github.com/tthibo/SQL-Tutorial/raw/master/tutorial_files/images/tool_menu.jpg
-.. |image1| image:: https://github.com/tthibo/SQL-Tutorial/raw/master/tutorial_files/images/connect_db.png
+.. |open_db| image:: ../_static/part2/open_db_button.png
 
