@@ -10,6 +10,7 @@ A Gentle Introduction to SQL Using SQLite
    :maxdepth: 2
 
    part1
+   part2
 
 
 Indices and tables
