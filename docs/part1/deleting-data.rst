@@ -43,5 +43,12 @@ Now the row should be gone:
    SELECT * FROM contributors;
 
 
+Finally, you should save the database changes you've made so you don't 
+lose your work. You can save the changes by clicking the "Write Changes" button:
+
+|write_changes|
+
+
 .. |image1| image:: ../_static/part1/buffet_by_id.png
+.. |write_changes| image:: ../_static/part1/write_changes_button.png
 
