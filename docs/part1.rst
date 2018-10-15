@@ -12,7 +12,6 @@ Part I
    part1/sorting-results
    part1/updating-data
    part1/deleting-data
-   part1/importing-data
    part1/references
 
 .. include:: license_snippet.rst.inc
