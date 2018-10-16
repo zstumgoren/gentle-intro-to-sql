@@ -11,6 +11,7 @@ A Gentle Introduction to SQL Using SQLite
 
    part1
    part2
+   part3
    appendix
 
 
