@@ -35,6 +35,8 @@ is part of the argument passed to ``COUNT()``.
 
 |distinct_zip|
 
+.. _min-and-max:
+
 MIN() and MAX()
 ^^^^^^^^^^^^^^^
 
