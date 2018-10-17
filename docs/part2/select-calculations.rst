@@ -68,5 +68,5 @@ to get the job done.
 .. rubric:: Footnotes
 
 .. [#f1] Custom calculations work in other clauses as well, such
-   in ``WHERE`` clauses. We focus on ``SELECT`` here because it's
+   as in ``WHERE`` clauses. We focus on ``SELECT`` here because it's
    one of the most common use cases for custom calculations.
