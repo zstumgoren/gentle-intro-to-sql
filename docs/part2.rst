@@ -17,6 +17,7 @@ of the idiosyncrasies of SQL.
    part2/concatenate
    part2/between-and-in
    part2/aggregate-functions
+   part2/select-calculations
    part2/subqueries
    part2/group-by
    part2/having

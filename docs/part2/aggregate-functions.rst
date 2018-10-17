@@ -7,6 +7,8 @@ analysis. To specify a column to use for the aggregate, pass the column
 name as the argument in parentheses: e.g. ``COUNT (counted_column)``. Here's
 a quick run through some useful aggregate functions:
 
+.. _count:
+
 COUNT()
 ^^^^^^^
 
@@ -67,6 +69,8 @@ What is the average amount contributed?
 ::
 
    SELECT AVG(amount) FROM contributors;
+
+.. _avg-amt:
 
 |avg_amt|
 
