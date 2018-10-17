@@ -18,7 +18,7 @@ Here's a really basic example:
 |one_plus_two|
 
 Simple, though not very useful. Things get more interesting
-when you start peforming calculations on data.
+when you start performing calculations on data.
 
 Say that we wanted to know the average contribution amount for the entire data set.
 
@@ -45,7 +45,7 @@ causing you to lose precision that may be important in a given query:
 |avg_non_decimal|
 
 Also note that we can make this query more flexible by updating
-the calculation to use the :ref:`COUNT <count>` builtin-function,
+the calculation to use the built-in :ref:`COUNT <count>` function,
 instead of hard-coding the value.
 
 ::
