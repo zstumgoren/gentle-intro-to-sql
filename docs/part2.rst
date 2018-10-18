@@ -21,6 +21,7 @@ of the idiosyncrasies of SQL.
    part2/subqueries
    part2/group-by
    part2/having
+   part2/subqueries-revisited
    part2/conclusion
 
 
