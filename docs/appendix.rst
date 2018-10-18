@@ -7,6 +7,7 @@ Some useful things that go beyond the more general realm of SQL.
    :maxdepth: 1
 
    appendix/importing-data
+   appendix/saving-scripts
 
 .. include:: license_snippet.rst.inc
 
