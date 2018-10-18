@@ -11,8 +11,8 @@ one query on the results of another, without having to run the queries separatel
 But subqueries aren't limited to use in the ``WHERE`` clause. Another
 powerful -- and perhaps surprising -- use of subqueries is in ``SELECT``.
 
-Say, for example, that you wanted to determine the percentage of contributions that came from
-each state.
+For example, say that you wanted to determine the percentage of all contributions
+that came from each state.
 
 You *could* perform this operation with two separate queries,
 starting with a sum of all contributions:
@@ -40,7 +40,7 @@ This works, but wouldn't it be nice if we could dynamically calculate the sum
 of all contributions, rather than hard-code the total from the first query? That way, our
 calculation should "just work" if we add more contributions to the database.
 
-This is where the ``SELECT`` clause subquery can work its magic:
+This is where the ``SELECT`` subquery can work its magic:
 
 ::
 
@@ -52,13 +52,13 @@ This is where the ``SELECT`` clause subquery can work its magic:
 
 |state_contrib_pct_dynamic|
 
-Above, we've simply replaced the hard-coded value with our original query.
-SQLite will calculate this total once and use it to determine
-each state's percentage of overall contributions.
+Above, we've simply replaced the hard-coded sum of all contributions
+with the query that generated the value. SQLite will calculate this total once
+and use it to determine each state's percentage of overall contributions.
 
 Not too shabby. Subqueries in select statements can clearly be a powerful tool
-in your SQL toolkit, especially when combined with aggregates, ``GROUP BY`` and
-other SQL skills we've covered in Part II.
+in your SQL skill set, especially when combined with aggregates, ``GROUP BY`` and
+other SQL features we've covered in Part II.
 
 A word of caution
 ^^^^^^^^^^^^^^^^^
