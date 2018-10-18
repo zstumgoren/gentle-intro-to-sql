@@ -14,10 +14,11 @@ entire database you create.
 
     Note: As you do work in *DB Browser*, be aware that it will not
     automatically save your work. If you plan to step away from the tutorial,
-    be sure to save your chnages by clicking the "Write Changes" button:
+    be sure to save your changes by clicking the "Write Changes" button:
 
     |write_changes_button|
 
+    You can also :doc:`save SQL queries <../appendix/saving-scripts>` as individual scripts.
 
 
 Creating a Table
