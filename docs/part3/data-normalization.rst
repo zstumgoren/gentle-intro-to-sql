@@ -110,7 +110,7 @@ So now, rather than having candidate data included with each row of the
 contributor data, we have one row for each candidate. It’s a much
 cleaner data structure.
 
-.. include:: license_snippet.rst.inc
+.. include:: ../license_snippet.rst.inc
 
 .. |browse_candidates| image:: ../_static/part3/browse_candidates.png
 
