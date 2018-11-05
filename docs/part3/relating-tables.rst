@@ -85,7 +85,7 @@ You should now have 175 rows in the **contributors** table [#f1]_:
    separate task.
 
 
-.. include:: license_snippet.rst.inc
+.. include:: ../license_snippet.rst.inc
 
 .. |image5| image:: ../_static/part3/import_contributors.png
 .. |image6| image:: ../_static/part3/browse_contributors.png
