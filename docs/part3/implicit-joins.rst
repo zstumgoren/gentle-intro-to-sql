@@ -17,12 +17,16 @@ do something like this:
       WHERE last_name = 'Obama' AND first_name = 'Barack'
    );
 
+.. _implicit-joins:
+
 This approach works fine as long as you're simply looking up values in
 one table and using them in the conditions for the ``WHERE`` clause. But
 often the queries you'll want to run will need to treat the two tables
 as a combined data set. A query that combines the data from two tables
 is known as a **join** on the tables. It is possible to do an **implicit**
 join simply by defining the relationship between the two tables in the ``WHERE`` clause:
+
+.. _implicit-join-query:
 
 ::
 
