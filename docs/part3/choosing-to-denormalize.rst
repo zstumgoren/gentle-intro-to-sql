@@ -51,3 +51,5 @@ comment here: “As the old adage goes, normalize until it hurts,
 denormalize until it works.”
 
 .. |image12| image:: https://github.com/tthibo/SQL-Tutorial/raw/master/tutorial_files/images/multiple_joins.png
+
+.. include:: ../license_snippet.rst.inc
