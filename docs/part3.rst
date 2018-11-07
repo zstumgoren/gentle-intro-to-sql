@@ -9,7 +9,6 @@ Part III
    part3/implicit-joins
    part3/explicit-joins
    part3/outer-joins
-   part3/self-joins
    part3/choosing-to-denormalize
    part3/further-resources
 
