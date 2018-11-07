@@ -10,6 +10,7 @@ Part III
    part3/explicit-joins
    part3/outer-joins
    part3/choosing-to-denormalize
+   part3/conclusion
    part3/further-resources
 
 .. include:: license_snippet.rst.inc
