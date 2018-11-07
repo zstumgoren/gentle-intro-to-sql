@@ -27,6 +27,8 @@ Aliases work with ``JOIN`` as well:
 
 Now let's try something a bit more interesting:
 
+.. _explicit-join-group-by-query:
+
 ::
 
    SELECT b.id, b.last_name, count(a.id)
