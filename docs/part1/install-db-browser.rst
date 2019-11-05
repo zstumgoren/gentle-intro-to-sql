@@ -11,7 +11,7 @@ documentation:
    edit data. It uses a familiar spreadsheet-like interface, and you
    don’t need to learn complicated SQL commands.
 
-Go to `this page <https://sqlitebrowser.org/>`__, download the installer
+Go to `this page <https://sqlitebrowser.org/dl/>`__, download the installer
 appropriate for your machine, and execute the installer.
 
 Once finished, search for the program and fire it up.
